@@ -1,0 +1,87 @@
+:root {
+  --primary: #2145a9;
+  --primary-hover: #fa6e0a;
+  --secondary: rgb(133, 133, 133);
+  --secondary-500: rgba(211, 211, 211, 0.5);
+  --danger: #dc3545;
+  --danger-hover: #a52734;
+  --dark: #1f1f1f;
+  --dark-bg: #333333;
+  --light: #ebebeb;
+  --white: #fff;
+  --light-bg: #444444;
+  --border: #4d4d4d;
+
+  --box-shadow-1: 0 16px 32px 0 rgba(7, 28, 31, 0.1);
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden !important;
+  background: transparent;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.form-control {
+  border-radius: 15px !important;
+}
+
+select.form-select option:hover {
+  background-color: var(--primary) !important;
+}
+
+.bg_dark {
+  background: var(--light) !important;
+}
+.bg_light {
+  background: var(--light) !important;
+}
+
+.crd {
+  border-radius: 15px !important;
+  overflow: hidden;
+  width: 100%;
+  background: var(--white) !important;
+  border: 1px solid var(--white) !important;
+}
+
+.btn_primary {
+  outline: none !important;
+  border: none !important;
+  padding: 8px 26px !important;
+  font-weight: bold !important;
+  border-radius: 30px !important;
+  color: var(--dark) !important;
+  background: linear-gradient(90deg, #ffe502 0%, #ffa602 100%) !important;
+  transition: 0.3s all ease-in-out;
+}
+
+.btn_primary:hover {
+  background: linear-gradient(90deg, #fae41a 0%, #fcaf22 100%) !important;
+  transition: 0.3s all ease-in-out;
+}
+.btn_danger {
+  outline: none !important;
+  border: none !important;
+  padding: 8px 26px !important;
+  font-weight: bold !important;
+  border-radius: 30px !important;
+  color: var(--white) !important;
+  background: linear-gradient(90deg, #ff7c02 0%, #f02e2e 100%) !important;
+  transition: 0.3s all ease-in-out;
+}
+
+.btn_danger:hover {
+  background: linear-gradient(90deg, #fc2222 0%, #ff7c02 100%) !important;
+  transition: 0.3s all ease-in-out;
+}
