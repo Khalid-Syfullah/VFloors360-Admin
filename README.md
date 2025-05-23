@@ -1,0 +1,2 @@
+# VFloors360-Admin
+VFloors360-Admin is the administrative dashboard for managing the VFloors360 virtual room visualization platform. It enables admins to upload and organize 3D room models, manage tile textures and categories, configure system settings, and monitor VR content in real-time. Built with React, Redux, and Axios, this panel ensures seamless content control and backend integration with the VFloors360-Client, supporting a dynamic and immersive user experience in virtual interior design.
