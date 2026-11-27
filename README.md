@@ -11,6 +11,43 @@ VFloors360-Admin is the administrative dashboard for managing the VFloors360 vir
 
 This admin interface complements the VR client application by providing the tools necessary for uploading, organizing, and maintaining the assets used in the client-side environment.
 
+## 📸 Screenshots
+
+Screens from a local run against [VFloors360-Server](https://github.com/khalid-syfullah/VFloors360-Server) with sample tiles (generated textures) and the 3D scenes in this repo.
+
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <img src="docs/screenshots/03-tile-list.png" width="420" alt="Admin tile list"><br>
+      <b>Tile list</b><br><sub>Thumbnails, brand, category, size, coverage and price</sub>
+    </td>
+    <td align="center" valign="top">
+      <img src="docs/screenshots/04-add-tile-form.png" width="420" alt="Add tile form"><br>
+      <b>Add a tile</b><br><sub>Details and texture image</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <img src="docs/screenshots/05-edit-tile-form.png" width="420" alt="Edit tile form"><br>
+      <b>Edit a tile</b><br><sub>Pre-filled form</sub>
+    </td>
+    <td align="center" valign="top">
+      <img src="docs/screenshots/06-delete-tile-confirm.png" width="420" alt="Delete confirmation"><br>
+      <b>Delete a tile</b><br><sub>Confirmation before deleting</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <img src="docs/screenshots/02-dashboard.png" width="420" alt="Admin dashboard"><br>
+      <b>Dashboard</b><br><sub>Tile and user counts</sub>
+    </td>
+    <td align="center" valign="top">
+      <img src="docs/screenshots/01-login.png" width="420" alt="Admin login page"><br>
+      <b>Sign in</b><br><sub>Admin login</sub>
+    </td>
+  </tr>
+</table>
+
 ## 🧰 Tech Stack
 
 - **React.js** – Component-based UI development
